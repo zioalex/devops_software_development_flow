@@ -40,10 +40,8 @@ Check me out
     cd vagrant
     vagrant up minikube
 
-Jenkins will be avaibale on http://localhost:30000
-while the app on http://localhost:30001
+Be patient! The whole process will take ~12-15 mins
 
-If the port are not available could be that the Vagrant port forwarding failed.
 Update the your ssh config and run a ssh port forward
     vagrant ssh-config >> ~/.ssh/config
     ssh minikube -L 30010:172.17.0.3:30000
@@ -51,7 +49,12 @@ Update the your ssh config and run a ssh port forward
 
 Jenkins will be avaibale on http://localhost:30010
 while the app on http://localhost:30011
-  
+
+A Vagrant port forwaring has been configured but it seems to be not so stable.
+However if it works you can find the services in the follow urls:
+Jenkins will be avaibale on http://localhost:30000
+while the app on http://localhost:30001
+
 The default Jenkins credential are admin/admin .
     
 What I've (re/)learned
