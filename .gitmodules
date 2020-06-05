@@ -1,9 +1,12 @@
 [submodule "vagrant"]
 	path = vagrant
 	url = git@github.com:zioalex/vagrant.git
+  branch = master
 [submodule "hello_world"]
 	path = hello_world
 	url = git@github.com:zioalex/hello_world.git
+  branch = master
 [submodule "ansible_code"]
 	path = ansible_code
 	url = git@github.com:zioalex/ansible_code.git
+  branch = master
